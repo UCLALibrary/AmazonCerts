@@ -110,8 +110,8 @@ public class CertMailer
   {
     ds = new DriverManagerDataSource();
     ds.setDriverClassName( "com.microsoft.sqlserver.jdbc.SQLServerDriver" );
-    ds.setUrl( "jdbc:sqlserver://db-libraryweb.library.ucla.edu:1433" );
-    ds.setUsername( "Hours_Update" );
-    ds.setPassword( "Hours_Update_pwd" );
+    ds.setUrl( "url" );
+    ds.setUsername( "user" );
+    ds.setPassword( "pwd" );
   }
 }
